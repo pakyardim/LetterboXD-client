@@ -157,8 +157,7 @@ header svg {
 }
 
 .loginContainer .subBtn {
-  background: #00b020;
-
+  background-color: #00b020;
   border: none;
   border-radius: 3px;
   box-shadow: inset 0 1px 0 hsla(0,0%,100%,.2);
@@ -182,16 +181,15 @@ header svg {
 main {
   margin: 0;
   background-color: #14181c;
-
   text-align: center;
-
+  height: 1100px;
   width: 100%;
 }
 
 main .headlines {
+  position: relative;
+  top: 400px;
   width: 950px;
-  position: absolute;
-  bottom: 42%;
   text-align: center;
   margin: auto;
 }
@@ -214,10 +212,131 @@ main h2 {
   margin: auto;
 }
 
+.notSignedButton{
+  color: white;
+  position: relative;
+  top: 450px;
+  border:none;
+  
+  background-color: #00c030;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  font-family: 'graphik_regularregular';
+  font-weight: 400;
+  width: 30%;
+  height: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  display: inline-block;
+  font-size: 1.23rem;
+}
+
+.notSignedButton:hover{
+  background-color: #00b020;
+}
+
+.available{
+  position: relative;
+  font-size: 17px;
+  bottom: 330px;
+  color: #778899;
+  font-family: 'graphik_regularregular', sans-serif;
+  margin:0;
+}
+
+.available svg{
+  
+  cursor: pointer;
+  height: 1.5em;
+  width: 1.5em;
+  position: relative;
+  top:3px;
+}
+
+.available svg:hover{
+  color: #fff;
+}
+
+
+.highlights{
+  width: 950px;
+  position: relative;
+  bottom: 300px;
+  text-align: start;
+  margin: auto;
+}
+
+.cards{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
+  gap: 8px;
+}
+
+
+.card{
+  background-color: #445566;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 7px;
+  height: 90px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.card p{
+  color: #DDEEFF;
+  line-height: 21px;
+  font-family: 'graphik_regularregular', sans-serif;
+  font-weight: 400;
+}
+
+.card span{
+  height: 100%;
+  min-width: 50px;
+}
+
+.card span svg{
+  height: 2.5em;
+  width: 5rem;
+  margin: auto;
+  position: relative;
+  top:20px;
+}
+
+.card:hover{
+    color: #fff;
+  
+}
+.orange span{
+  width: 50px;
+}
+
+.green:hover{
+  background-color:#00c030;
+}
+
+.orange:hover{
+  background-color:#ee7000;
+}
+
+.blue:hover{
+  background-color:#209ce4;
+}
+
+.tagline{
+  color: #99AABB;
+  font-family: "graphik_regularregular", sans-serif;
+  font-size: 13px;
+}
 /* FOOTER */
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 63.763px;
   width: 100%;
