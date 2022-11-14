@@ -1,3 +1,5 @@
+# Something I'll continue doing after I learn TypeScript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
